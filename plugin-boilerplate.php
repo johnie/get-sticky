@@ -1,9 +1,9 @@
 <?php
 /*
-* Plugin Name: Plugin Name
-* Plugin URI: https://github.com/johnie/plugin-boilerplate
-* Description:
-* Version: 0.0.1
+* Plugin Name: Get Sticky
+* Plugin URI: https://github.com/johnie/get-sticky
+* Description: Sticky post feature for WordPress
+* Version: 1.0.0
 * Author: Johnie Hjelm
 * Author URI: http://johnie.se
 * License: MIT
@@ -35,27 +35,27 @@ THE SOFTWARE.
 // Exit if accessed directly.
 defined( 'ABSPATH' ) || exit;
 
-if ( ! class_exists( 'PluginName' ) ) {
+if ( ! class_exists( 'GetSticky' ) ) {
 
-  class PluginName {
+  class GetSticky {
 
     /**
     * Tag identifier used by file includes and selector attributes.
     * @var string
     */
-    protected $tag = 'pluginname';
+    protected $tag = 'getsticky';
 
     /**
     * User friendly name used to identify the plugin.
     * @var string
     */
-    protected $name = 'Plugin Name';
+    protected $name = 'Get Sticky';
 
     /**
     * Current version of the plugin.
     * @var string
     */
-    protected $version = '0.0.1';
+    protected $version = '1.0.0';
 
     /**
     * Initiate the plugin by setting the default values and assigning any
@@ -71,6 +71,6 @@ if ( ! class_exists( 'PluginName' ) ) {
 
   }
 
-  new PluginName();
+  new GetSticky();
 
 }

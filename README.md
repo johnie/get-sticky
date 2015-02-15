@@ -1,11 +1,11 @@
-# plugin-boilerplate
+# get-sticky
 
-> Text about the plugin
+> Sticky post feature for WordPress
 
 ## Install
 
 ```sh
-$ composer require johnie/plugin-boilerplate
+$ composer require johnie/get-sticky
 ```
 
 ## Usage

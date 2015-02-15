@@ -1,9 +1,9 @@
 {
-  "name": "johnie/plugin-boilerplate",
+  "name": "johnie/get-sticky",
   "type": "wordpress-plugin",
   "licence": "MIT",
   "description": "",
-  "homepage": "https://github.com/johnie/plugin-boilerplate",
+  "homepage": "https://github.com/johnie/get-sticky",
   "authors": [
     {
       "name": "Johnie Hjelm",
@@ -16,7 +16,7 @@
     "plugin"
   ],
   "support": {
-    "issues": "https://github.com/johnie/plugin-boilerplate/issues"
+    "issues": "https://github.com/johnie/get-sticky/issues"
   },
   "require": {
     "php": ">=5.3.0",
